@@ -1,0 +1,39 @@
+{
+  "equipments": [
+    {
+      "name": "camera",
+      "amount": 2,
+      "condition": "new",
+      "photoUrl": "https://m.media-amazon.com/images/I/71d0AjVxzkL._AC_SL1500_.jpg",
+      "id": 5
+    },
+    {
+      "name": "PC",
+      "amount": 10,
+      "condition": "new",
+      "photoUrl": "https://www.lifewire.com/thmb/_QeCiz9WzhNzXU1LbrXV_0gyfAM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/xxl-desktop-pc-98013994-5c4dcc47c9e77c0001380389.jpg",
+      "id": 6
+    },
+    {
+      "name": "tastatūra",
+      "amount": 5,
+      "condition": "used",
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Keyboard_de_kyr_R7309238_wp.jpg",
+      "id": 7
+    },
+    {
+      "name": "pele",
+      "amount": 3,
+      "condition": "new",
+      "photoUrl": "https://www.banija.lv/134464_pictures-Ultra-pl%C4%81nas-usb-optisk%C4%81-bezvadu-pele-2-4-g-uztv%C4%93r%C4%93js/pics_1.jpeg",
+      "id": 8
+    },
+    {
+      "name": "grfefe",
+      "amount": 2,
+      "condition": "new",
+      "photoUrl": "https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_square.jpg",
+      "id": 9
+    }
+  ]
+}

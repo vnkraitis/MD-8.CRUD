@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="crud-title">
+      <h1>CRUD</h1>
+      <h1>Equipment Management System</h1>
+  </div>
+
+  <form class="js-equipment-form">
+      <div class="form-inputs">
+          <input
+              type="text"
+              class="equipment_form"
+              name="equipment-name"
+              placeholder="Equipment Name"
+              required
+          />
+          <input
+              type="number"
+              class="equipment_form"
+              name="amount"
+              placeholder="Amount"
+              required
+          />
+          <input
+              type="text"
+              class="equipment_form"
+              name="condition"
+              placeholder="Condition"
+              required
+          />
+          <input
+              type="text"
+              class="equipment_form"
+              name="photo"
+              placeholder="Photo URL"
+              required
+          />
+      </div>
+      <button type="submit">Add Equipment</button>
+  </form>
+
+  <div class="js-equipment-wrapper"></div>
+
+  
+
+    <script src="/scripts.js"></script>
+  </body>
+</html>

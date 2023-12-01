@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  margin: 0;
+}
+
+/* Overall form styling */
+.crud-title h1 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.js-equipment-form {
+  width: 50%; 
+  margin: 0 auto; 
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  border-radius: 8px; 
+  background: #fff; 
+}
+
+/* Input field styling */
+.equipment_form {
+  width: calc(100% - 20px); 
+  padding: 10px;
+  margin-bottom: 15px; 
+  border: 1px solid #ddd; 
+  border-radius: 4px; 
+  font-size: 16px;
+}
+
+/* Button styling */
+.js-equipment-form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #5cb85c; 
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.js-equipment-form button:hover {
+  background-color: #4cae4c; 
+}
+
+/* Grid layout for the equipment container */
+.js-equipment-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+/* Individual equipment styling */
+.equipment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px; 
+  margin: 20px auto; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+/* Button inside each equipment */
+.equipment-delete-button {
+  padding: 10px 20px; 
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff4d4f; 
+  color: white;
+  font-size: 0.9em; 
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: auto; 
+  align-self: center; 
+}
+
+.equipment-delete-button:hover {
+  background-color: #e33e41; 
+}
+
+/* Name of the equipment */
+.equipment-name {
+  font-size: 1.2em; 
+  color: #333; 
+  margin-bottom: 10px; 
+  font-weight: bold; 
+
+
+}
+/* Image styling */
+.equipment-image {
+  width: 100%; 
+  height: auto; 
+  display: block; 
+}
+
+/* Text and button container within each equipment item */
+.equipment-details {
+  padding: 15px;
+  text-align: center;
+  width: 100%; 
+}
+
+/* Name of the equipment */
+.equipment-name {
+  font-size: 1.2em; 
+  color: #333; 
+  margin-bottom: 10px; 
+  font-weight: bold; 
+}
+
+/* Details about the equipment */
+.equipment-amount,
+.equipment-condition {
+  color: #555; 
+  font-size: 1em;
+  margin: 5px 0;
+}
